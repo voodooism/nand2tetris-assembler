@@ -1,4 +1,4 @@
-###Nand2Tetris Project 6: The assembler
+## Nand2Tetris Project 6: The assembler
 This is my implementation of an Assembler program that translates programs written in the symbolic Hack assembly language into binary code.
 
 An assembly language file is composed of text lines, each representing either an instruction or a symbol declaration.
@@ -11,8 +11,10 @@ The API of implementation is proposed by the course instructions.
 More information about Hack language you can find in the nand2tetris [site](https://www.nand2tetris.org/project06)
 
 
-Usage:
+*Usage:*
+```
 java -jar ./path/to/jar -p /path/to/asmfile
--p Path to asm file
+```
+**-p** *Path to asm file*
 
-As a result, the program will generate *.hack file that contains binary code in the same directory as the .asm file
+As a result, the program will generate **\*.hack** file that contains binary code in the same directory as the **\*.asm** file
